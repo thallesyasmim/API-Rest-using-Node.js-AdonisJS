@@ -17,3 +17,4 @@
 const Route = use('Route')
 
 Route.post('/users', 'UserController.create') // Route for User Create
+Route.post('/sessions', 'SessionController.create') // Authentication | Session - Create TOKEN
